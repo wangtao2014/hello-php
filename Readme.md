@@ -16,5 +16,15 @@
     - /usr/local/var/www/index.php
     - http://localhost/index.php
 
+- Ref: [Mac 下 PHP 环境搭建](https://www.cnblogs.com/duyuanshang/p/php_dev_m1.html)
+- Ref: [XAMPP是最流行的PHP开发环境](https://www.apachefriends.org/zh_cn/index.html)
+- Ref: [PHP 是什么？](https://www.php.net/manual/zh/intro-whatis.php)
+
+
 ## PHP Knowledge
-- 
+- [Php namespace](https://www.runoob.com/php/php-namespace.html)
+
+
+
+## Tools Tutorials
+- [Mac 下 brew 切换为国内源](https://cloud.tencent.com/developer/article/1614039)

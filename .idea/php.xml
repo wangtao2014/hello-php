@@ -11,6 +11,7 @@
     <option name="transferred" value="true" />
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+  <component name="PhpRuntimeConfiguration" default_stubs_path="$USER_HOME$/Documents/php-learning/phpstorm-stubs" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
