@@ -12,4 +12,4 @@ function foo(): void {
 mine\foo();
 \MyProject\foo();
 // Global code should be enclosed in global namespace declaration
-namespace\foo();  // success: namespace_self -> foo()
+// \namespace\foo();  // success: namespace_self -> foo()
