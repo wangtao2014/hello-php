@@ -1,0 +1,18 @@
+$ composer install
+No composer.lock file present. Updating dependencies to latest instead of installing from lock file. See https://getcomposer.org/install for more information.
+Loading composer repositories with package information
+Info from https://repo.packagist.org: #StandWithUkraine
+Updating dependencies
+Lock file operations: 2 installs, 0 updates, 0 removals
+  - Locking monolog/monolog (3.3.1)
+  - Locking psr/log (3.0.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 2 installs, 0 updates, 0 removals
+  - Downloading psr/log (3.0.0)
+  - Downloading monolog/monolog (3.3.1)
+  - Installing psr/log (3.0.0): Extracting archive
+  - Installing monolog/monolog (3.3.1): Extracting archive
+10 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+1 package you are using is looking for funding.

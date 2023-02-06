@@ -9,8 +9,8 @@
     include "php_types.php";
     include "php_arrays.php";
     require "type_const.php";
-    require("super_globals.php");
-    require("magic_const.php");
+    # require("super_globals.php");
+    # require("magic_const.php");
 
     use PhpTypes as php_types;
     // php_types\type_boolean();
@@ -21,3 +21,18 @@
     // php_types\type_array();
 
     // array_define();
+
+// require "vendor/autoload.php";
+require __DIR__ . '/vendor/autoload.php';
+
+use Monolog\Level;
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+// create a log channel
+$log = new Logger('name');
+$log->pushHandler(new StreamHandler('my_monolog.log', Level::Warning));
+
+// add records to the log
+$log->warning('Foo');
+$log->error('Bar');

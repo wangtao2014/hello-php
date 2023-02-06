@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/hello-php",
+  "description": "hello-php learning php",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "wangtao37",
+      "email": "wangtao20100517@gmail.com"
+    }
+  ],
+  "require": {
+      "monolog/monolog": "^3.3"
+  }
+}
