@@ -1,5 +1,5 @@
 <?php
-    phpinfo();
+    // phpinfo();
     echo "Hello world!<br>";
 
 

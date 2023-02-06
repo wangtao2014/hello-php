@@ -1,0 +1,27 @@
+The default port has been set in /usr/local/etc/nginx/nginx.conf to 8080 so that
+nginx can run without sudo.
+
+nginx will load all files in /usr/local/etc/nginx/servers/.
+
+To restart nginx after an upgrade:
+  brew services restart nginx
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/nginx/bin/nginx -g daemon off;
+
+# Command Line
+
+sudo nginx                      #启动
+sudo nginx -s reload            #重启nginx服务
+sudo nginx -s stop              #停止
+brew services restart nginx	    #重启
+sudo nginx -t                   #检测配置文件中是否存在语法错误
+
+# Test
+
+打开 127.0.0.1:8080 显示正常则启动完成
+
+# 修改nginx.conf文件
+cd /usr./local/etc/nginx   进入nginx文件夹, 找到server中的下面代码，添加对 index.php的支持
+
+
+Ref: https://blog.csdn.net/hechenhongbo/article/details/105688194
