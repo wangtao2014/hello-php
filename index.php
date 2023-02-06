@@ -8,6 +8,9 @@
 
     include "php_types.php";
     include "php_arrays.php";
+    require "type_const.php";
+    require("super_globals.php");
+    require("magic_const.php");
 
     use PhpTypes as php_types;
     // php_types\type_boolean();
@@ -17,4 +20,4 @@
     // php_types\type_iter();
     // php_types\type_array();
 
-    array_define();
+    // array_define();
