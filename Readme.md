@@ -23,6 +23,9 @@
 
 ## PHP Knowledge
 - [Php namespace](https://www.runoob.com/php/php-namespace.html)
+- a . b 并置 连接两个字符串,eg: 
+  - ```Php $a = 'a'; $b = 'b'; echo $a . $b; // ab```
+  - a .= b  a = a . b 连接两个字符串并赋值给a
 
 
 

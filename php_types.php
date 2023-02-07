@@ -32,6 +32,11 @@ function type_integer(): void
 
 function type_string(): void
 {
+    # 开始标识可以不带引号或带单双引号，不带引号与带双引号效果一致,
+    # 解释内嵌的变量和转义符号，带单引号则不解释内嵌的变量和转义符号。
+    # 开始标记和结束标记相同，比如常用大写的 EOT、EOD、EOF 来表示，但是不只限于那几个(也可以用：JSON、HTML等)，
+    # 只要保证开始标记和结束标记不在正文中出现即可。 https://www.runoob.com/php/php-eof-heredoc.html
+
     $str = "foo";
     $nowdoc = <<<'END'
 multi line string
