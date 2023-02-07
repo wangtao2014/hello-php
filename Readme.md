@@ -31,3 +31,9 @@
 
 ## Tools Tutorials
 - [Mac 下 brew 切换为国内源](https://cloud.tencent.com/developer/article/1614039)
+- Nginx 安装：
+  - 目录：/usr/local/opt/nginx/bin/nginx
+  - 配置文件：/usr/local/etc/nginx/nginx.conf
+  - 启动：/usr/local/opt/nginx/bin/nginx
+  - 停止：/usr/local/opt/nginx/bin/nginx -s stop
+  - 重启：/usr/local/opt/nginx/bin/nginx -s reload

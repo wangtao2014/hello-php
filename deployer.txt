@@ -1,0 +1,46 @@
+~/PhpstormProjects/hello-php on  main! ⌚ 10:43:51
+$ dep init
+╭───────────────────────────────────────╮
+│                                       │
+│                                       │
+│    ____          _                    │
+│   |    \ ___ ___| |___ _ _ ___ ___    │
+│   |  |  | -_| . | | . | | | -_|  _|   │
+│   |____/|___|  _|_|___|_  |___|_|     │
+│             |_|       |___|           │
+│                                       │
+│                                       │
+╰───────────────────────────────────────╯
+
+ Select recipe language [php]:
+  [0] php
+  [1] yaml
+ > 0
+
+ Select project template [common]:
+  [0 ] cakephp
+  [1 ] codeigniter
+  [2 ] common
+  [3 ] composer
+  [4 ] contao
+  [5 ] craftcms
+  [6 ] drupal7
+  [7 ] drupal8
+  [8 ] flow_framework
+  [9 ] fuelphp
+  [10] joomla
+  [11] laravel
+  [12] magento
+  [13] magento2
+  [14] pimcore
+  [15] prestashop
+  [16] provision
+  [17] shopware
+  [18] silverstripe
+  [19] statamic
+  [20] sulu
+  [21] symfony
+  [22] typo3
+  [23] wordpress
+  [24] yii
+  [25] zend_framework

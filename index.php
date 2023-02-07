@@ -6,13 +6,13 @@
     // include "namespace_self.php";
     // include "import_as.php";
 
-    include "php_types.php";
-    include "php_arrays.php";
-    require "type_const.php";
+//    include "php_types.php";
+//    include "php_arrays.php";
+    // require "type_const.php";
     # require("super_globals.php");
     # require("magic_const.php");
 
-    use PhpTypes as php_types;
+//    use PhpTypes as php_types;
     // php_types\type_boolean();
     // php_types\type_integer();
     // php_types\type_string();
@@ -22,6 +22,15 @@
 
     // array_define();
 
-require "postgres_con.php";
+//require "postgres_con.php";
+
+$phar = new Phar('index.phar');
+$phar->extractTo('dist');
+
+
+
+
+
+
 
 

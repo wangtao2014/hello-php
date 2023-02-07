@@ -17,5 +17,7 @@ Package operations: 2 installs, 0 updates, 0 removals
 Generating autoload files
 1 package you are using is looking for funding.
 
+https://getcomposer.org/download/
+
 切换为国内镜像：
 composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
